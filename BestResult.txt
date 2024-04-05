@@ -1,0 +1,6 @@
+2024-04-04 10:22:33,342 WARNING tune.py:1057 -- Experiment has been interrupted, but the most recent state was saved.
+Resume experiment with: tune.run(..., resume=True)
+2024-04-04 10:22:36,657 WARNING experiment_analysis.py:193 -- Failed to fetch metrics for 26 trial(s):
+Best trial config: {'w2v_vec_size': 6, 'w2v_window': 3, 'w2v_epochs': 95, 'script_len': 200, 'cnn_epochs': 8, 'cnn_batch_size': 1, 'cnn_lr': 0.00011526856588670855, 'cnn_cl1': 8, 'cnn_cl2': 64, 'cnn_cl3': 8, 'cnn_f1': 1, 'cnn_f2': 128, 'cnn_f3': 64, 'output_size': 1440}
+Best trial final validation loss: 3.5367594301904948
+Best trial final validation accuracy: -430513.73311503255
